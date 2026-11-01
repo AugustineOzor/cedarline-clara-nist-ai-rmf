@@ -1,4 +1,5 @@
-![Cedarline Bank: NIST AI RMF implementation for the CLARA credit model](assets/banner.jpg)
+<img width="2560" height="840" alt="cedarline-clara-banner" src="https://github.com/user-attachments/assets/faebddad-984c-4b3a-ac78-9c0976d57cb2" />
+
 
 # Cedarline Bank: NIST AI RMF Implementation for the CLARA Credit Model
 
