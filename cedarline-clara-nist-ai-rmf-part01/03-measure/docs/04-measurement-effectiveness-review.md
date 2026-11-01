@@ -75,5 +75,5 @@ Testing is only as good as the measures used. This review asks whether the metri
 <!-- nav -->
 ---
 
-[← Previous: AI Risk Register: CLARA](03-ai-risk-register.md) &nbsp;|&nbsp; [Part 03: Measure](../README.md) &nbsp;|&nbsp; [Next: back to Part 03: Measure overview →](../README.md)
+[← Previous: AI Risk Register: CLARA](03-ai-risk-register.md) &nbsp;|&nbsp; [Part 03: Measure](../README.md) &nbsp;|&nbsp; [Next: Part 04: Manage →](../../04-manage/README.md)
 <!-- /nav -->
