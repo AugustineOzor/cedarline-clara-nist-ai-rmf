@@ -66,5 +66,5 @@ This document brings together the risks found while mapping CLARA: in the system
 <!-- nav -->
 ---
 
-[← Previous: Third-Party Component Register: CLARA](04-third-party-component-register.md) &nbsp;|&nbsp; [Part 02: Map](../README.md) &nbsp;|&nbsp; [Next: back to Part 02: Map overview →](../README.md)
+[← Previous: Third-Party Component Register: CLARA](04-third-party-component-register.md) &nbsp;|&nbsp; [Part 02: Map](../README.md) &nbsp;|&nbsp; [Next: Part 03: Measure →](../../03-measure/README.md)
 <!-- /nav -->
