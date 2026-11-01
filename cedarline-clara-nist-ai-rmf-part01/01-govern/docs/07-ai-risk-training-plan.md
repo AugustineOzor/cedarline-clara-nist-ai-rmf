@@ -63,5 +63,5 @@ Training content is reviewed every year, and after any serious AI incident, majo
 <!-- nav -->
 ---
 
-[← Previous: Third-Party AI and Data Policy](06-third-party-ai-and-data-policy.md) &nbsp;|&nbsp; [Part 01: Govern](../README.md) &nbsp;|&nbsp; [Next: back to Part 01 overview →](../README.md)
+[← Previous: Third-Party AI and Data Policy](06-third-party-ai-and-data-policy.md) &nbsp;|&nbsp; [Part 01: Govern](../README.md) &nbsp;|&nbsp; [Next: Part 02: Map →](../../02-map/README.md)
 <!-- /nav -->
