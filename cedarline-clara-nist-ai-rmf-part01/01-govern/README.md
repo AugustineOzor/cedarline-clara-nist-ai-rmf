@@ -25,14 +25,6 @@
 - **Up-to-date regulation.** Dates reflect the Digital Omnibus on AI (Regulation (EU) 2026/1744), which moved Annex III high-risk obligations to 2 December 2027.
 - **Working spreadsheets.** The Excel registers use drop-down lists, conditional formatting and live summary formulas.
 
-## Folder layout
-
-```
-01-govern/
-├── README.md
-├── docs/    Markdown documents
-└── files/   Word and Excel versions
-```
 
 ## NIST AI RMF coverage
 
