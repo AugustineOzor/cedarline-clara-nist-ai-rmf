@@ -1,33 +1,39 @@
-![Cedarline Bank: NIST AI RMF implementation for the CLARA credit model](assets/banner.jpg)
+# Part 03: Measure
 
-# Cedarline Bank: NIST AI RMF Implementation for the CLARA Credit Model
+<!-- nav -->
+[Repository home](../README.md) › Part 03: Measure
+<!-- /nav -->
 
-A fictional, end-to-end implementation of the **NIST AI Risk Management Framework** for a high-risk AI system: **CLARA**, a machine learning model that recommends approve, refer or decline decisions for personal loan and credit card applications at **Cedarline Bank**, a retail bank with operations in Qatar and the EU.
+**NIST AI RMF function: MEASURE.** This part tests CLARA against the 31 requirements from Part 02, records what passed, what failed and how failures were fixed, scores every risk using that evidence, and checks whether the measures themselves were good enough.
 
-Every document follows the same bank, the same system and the same facts, from governance through to monitoring and retirement, and each is cross-referenced to the **EU AI Act** (as amended by the Digital Omnibus on AI) and **ISO/IEC 42001**.
+## Documents
 
-## Start here
+| # | Document | ID | What it does | Files |
+| --- | --- | --- | --- | --- |
+| 1 | [Test, Evaluation, Verification and Validation Plan](docs/01-test-and-evaluation-plan.md) | CB-AIMS-TEV-001 | 18 tests across performance, fairness, explainability, security, logging and human oversight, with test data, pass criteria and independent roles | Word |
+| 2 | [Test and Evaluation Results Report](docs/02-test-and-evaluation-results.md) | CB-AIMS-TER-001 | Results for every test, three first-round failures and their fixes, and Model Risk Management's validation opinion | Word, Excel |
+| 3 | [AI Risk Register](docs/03-ai-risk-register.md) | CB-AIMS-RR-001 | 18 risks scored before and after controls, with a heat map and treatment decisions | Word, Excel |
+| 4 | [Measurement Effectiveness Review](docs/04-measurement-effectiveness-review.md) | CB-AIMS-MER-001 | What the metrics captured, what they missed, and the changes made before production monitoring | Word |
 
-Read the **[case file](00-case-file/README.md)** first. It sets out the bank, the AI system, the governance structure and why CLARA is high-risk under the EU AI Act.
+## Highlights
 
-**[Start reading: Case file →](00-case-file/README.md)**
+- **Realistic results.** Three tests failed first time: grade F calibration, employer sector acting as a proxy for nationality, and approval rates for thin-file expatriate applicants. Each was fixed and retested, with both results recorded.
+- **Intersectional fairness.** Group-level results passed, but the issue for thin-file expatriates appeared only when nationality and credit history were tested together. That lesson now shapes monitoring.
+- **Clear validation opinion.** CLARA v1.2 is "fit for purpose, with conditions": 28 of 31 requirements met, 3 open items that must close before go-live, and no failures.
+- **Risk profile reduced.** Three Critical and four High inherent risks are reduced to five Medium and thirteen Low residual risks. The five Medium risks go to the treatment plan in Part 04.
+- **Working spreadsheets.** The risk register calculates scores and ratings from likelihood and impact and builds a heat map automatically. The traceability matrix (v1.1) now records every test result.
 
-## Parts
+## NIST AI RMF coverage
 
-| Part | NIST AI RMF function | Contents | Status |
-| --- | --- | --- | --- |
-| [00 Case file](00-case-file/README.md) | | Organisation, AI system, governance structure, frameworks | Complete |
-| [01 Govern](01-govern/README.md) | GOVERN | Policy, risk tolerance, RACI, AI inventory, obligations register, third-party policy, training plan | Complete |
-| [02 Map](02-map/README.md) | MAP | AI system profile, impact assessment, trustworthiness requirements, third-party component register, initial risk identification | Complete |
-| 03 Measure | MEASURE | Test and evaluation plan and results, AI risk register | Coming next |
-| 04 Manage | MANAGE | Risk treatment, human oversight, go/no-go decision, incident response, monitoring, contingency and decommissioning | Planned |
-
-## Disclaimer
-
-Cedarline Bank, CLARA, Verilytix and all people, figures and events are fictional and were created for portfolio use. This repository is not legal advice or a compliance determination. Regulatory references are summaries: always verify them against the official texts.
+| Subcategory | Covered by |
+| --- | --- |
+| MEASURE 1.1 to 1.3 Methods, metrics and independent assessment | Test plan |
+| MEASURE 2.1 to 2.13 Trustworthiness characteristics evaluated | Results report |
+| MEASURE 3.1 Tracking risks over time | Risk register; measurement review |
+| MEASURE 4.1 to 4.3 Effectiveness of measurement | Measurement effectiveness review |
 
 <!-- nav -->
 ---
 
-[Start reading: Case file →](00-case-file/README.md)
+[← Previous: Initial Risk Identification: CLARA](../02-map/docs/05-initial-risk-identification.md) &nbsp;|&nbsp; [Repository home](../README.md) &nbsp;|&nbsp; [Next: Test, Evaluation, Verification and Validation Plan: CLARA →](docs/01-test-and-evaluation-plan.md)
 <!-- /nav -->
