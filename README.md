@@ -21,7 +21,7 @@ Read the **[case file](00-case-file/README.md)** first. It sets out the bank, th
 | [01 Govern](01-govern/README.md) | GOVERN | Policy, risk tolerance, RACI, AI inventory, obligations register, third-party policy, training plan | Complete |
 | [02 Map](02-map/README.md) | MAP | AI system profile, impact assessment, trustworthiness requirements, third-party component register, initial risk identification | Complete |
 | [03 Measure](03-measure/README.md) | MEASURE | Test and evaluation plan and results, AI risk register with heat map, measurement effectiveness review | Complete |
-| 04 Manage | MANAGE | Risk treatment, human oversight, go/no-go decision, incident response, monitoring, contingency and decommissioning | Coming next |
+| 04 Manage | MANAGE | Risk treatment, human oversight, go/no-go decision, incident response, monitoring, contingency and decommissioning | Complete |
 
 ## Disclaimer
 
